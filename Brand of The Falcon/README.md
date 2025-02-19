@@ -6,3 +6,8 @@ As Guts traverses the treacherous wastelands in search of answers, he stumbles u
 
 Through careful examination, you determine that the device uses an advanced crypto-processor, one that encrypts all outgoing transmissions. However, there are whispers of an ancient backdoor, known only to the chosen. If you can find the right sequence to break the encryption, you may unveil the lost secrets of the Eclipse.
 0110101100111001
+
+## Docker Setup Commands
+The .vhdl files and the schematic.png are the challenge files. To complete the challenge, setup the Dockerfile and the hrdwr1.py file in the same directory.  
+``sudo docker build -t hrdwr1 .``  
+``sudo docker run -dit --name hrdwr1 -p 4567:4567 hrdwr1``
