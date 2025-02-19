@@ -10,4 +10,4 @@ Through careful examination, you determine that the device uses an advanced cryp
 ## Docker Setup Commands
 The .vhdl files and the schematic.png are the challenge files. To complete the challenge, setup the Dockerfile and the hrdwr1.py file in the same directory.  
 ``sudo docker build -t hrdwr1 .``  
-``sudo docker run -dit --name hrdwr1 -p 4567:4567 hrdwr1``
+``sudo docker run -dit --name hrdwr1 -p 31337:31337 hrdwr1``
