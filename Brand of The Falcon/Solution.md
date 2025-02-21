@@ -1,5 +1,5 @@
 # Solution
-**Disclaimer: **  
+**Disclaimer:**  
 This was my first attempt at getting my hands dirty in the hardware category. This was a good learning experience for me and I enjoyed it, hope you like the challenges.
 This challenge was inspired by a hardware challenge that I played in the HTB Tryout CTF.
 #
