@@ -1,5 +1,5 @@
 # Solution
-This was a simple google dorking challenge. Once you start the container you would get this questions  
+This was a simple google dorking challenge. Once you start the container you would get this question:  
 ``What is the one thing a true friend has that he should protect, with his heart and soul?``  
 As it was clearly mentioned that this was a Berserk themed CTF, so you just had to search for the question and add berserk in your search query.
 #
