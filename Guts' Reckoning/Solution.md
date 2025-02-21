@@ -8,7 +8,8 @@ visible in the last line of the code
 ``print(jedec_id)``  
 You should have noticed that when you run the client it gives you this response: ``[]``. That's because of the ``0`` in the exchange command, once you start incresing that number you start getting the flag.  
 With a little trial and error you will get to number 68, now you just have to put the decimals in cyberchef and convert it into ASCII to get the complete flag.  
-``jedec_id = exchange([0x9F], 68)``  
+``jedec_id = exchange([0x9F], 68)``    
+
 ***If you wish to further understand the working of the chip head over to this write up by Abdul Issa, [https://infosecwriteups.com/htb-cyber-apocalypse-ctf-2024-hardware-a45ddedae49b](url), which was the inspiration for this challenge.
 Here he has explained the working of the chip in quite great detail.***
 #
